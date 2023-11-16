@@ -75,7 +75,7 @@ a{
     
 }
 .fate h1::after{
-    content: url('images/incognito/swoosh.svg');
+    content: url('./images/incognito/swoosh.svg');
     position:absolute;
     top:32.5%;
     right:64.5%;

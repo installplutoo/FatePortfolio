@@ -70,7 +70,7 @@ a{
     
 }
 .cover::after{
-    content: url('/images/incognito/pinkdash.svg');
+    content: url('./images/incognito/pinkdash.svg');
     position:absolute;
     bottom:36.8%;
     left:62%;
