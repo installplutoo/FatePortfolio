@@ -1,0 +1,280 @@
+body{
+    margin:0;
+    background-color: #151515;
+}
+html {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+
+}
+#nav-container{
+    background-color: #151515;
+    width:100%;
+    
+    padding-top: 2%;
+    padding-bottom: 2%;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    z-index: 1;
+    justify-content: right;
+    
+    
+}
+a{
+    text-decoration: none;
+}
+.SolFate{
+    padding-top: 1%;
+    margin-left: 2.3%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 36;
+    color:white;
+    position:absolute;
+    left:1.5%;
+    top:10%;
+}
+.nav{
+    
+    display: inline-flex;
+    padding: 15px 50px 15px 50px;
+    font-size: 14px;
+    color:rgb(95, 95, 95);  
+    white-space: nowrap; 
+    font-family: 'Poppins', sans-serif;
+}
+.nav:hover{
+    
+    color:#ff006a9c; 
+}
+#work{
+    
+    color:FF006B; 
+    
+}
+
+
+
+
+/*cover*/
+
+.cover{
+    color:white;
+    font-size: 128;
+    font-style: italic;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    position:absolute;
+    bottom:165%;
+    
+}
+.cover::after{
+    content: url('/images/incognito/pinkdash.svg');
+    position:absolute;
+    bottom:36.8%;
+    left:62%;
+    z-index: -1;
+    
+}
+
+
+/*clients*/
+.clientele{
+    font-size: 18;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 20;
+    color:white;
+    position: absolute;
+    bottom:142%;
+}
+.clients{
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    justify-content: space-around; /* Distribute space evenly between items */
+    position: absolute;
+    bottom: 128%;
+    left: -4%;
+    width: 100%;
+    
+}
+.clients img{
+    display: flexbox;
+    flex-direction:row;
+    width: 60%;
+    
+    
+}
+
+
+
+
+/*work*/
+
+
+#info{
+    margin-left:8%;
+    margin-top:11%;
+    width:80%;
+    position:absolute;
+    top:100%;
+
+  
+
+}
+.proj{
+    display: flex;
+    align-items: flex-start;
+}
+
+.proj img{
+   display: block;
+    width:45%;
+    height:auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.proj .images-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1%; 
+}
+
+
+
+
+.typo{
+    font-family: 'Poppins', sans-serif;
+    color:white;
+}
+.wtsinfo{
+
+    
+    position: absolute;
+    left:62%;
+    bottom:44%;
+     
+}
+.typo h1{
+    margin-bottom: 0;
+    font-size: 24;
+}
+.typo h2{
+    margin-top:0;
+    color:FF006B;
+    font-size: 20;
+}
+.typo p{
+    font-size: 16;
+    margin-top: 12%;
+}
+
+.buttons{
+    display: flex;
+    
+   
+    
+}
+.pos{
+    position: absolute;
+
+    left:62%;
+    top:90%;
+}
+
+.buynow, .explore{
+    padding:10% 30%;
+    text-align: left;
+    background-color:#1E1E1E;
+    color:#FF006B;
+    font-family: 'Poppins', sans-serif;
+    white-space: nowrap;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.explore{
+    
+    position: relative;
+    left:50%;
+}
+
+
+.wtsh:hover{
+    color:#1f985b;
+    cursor: pointer;
+}
+
+
+
+
+
+.custom{
+    position:absolute;
+    top:150%;
+}
+.incognito img{
+    width:45%;
+    height:auto;
+    border:2px solid white;
+}
+.incinfo{
+    position:absolute;
+    top:150%;
+    left:62%;
+}
+.posi{
+    position: absolute;
+    top:241%;
+    left:62%;
+} 
+.inch:hover{
+    color:white;
+    cursor: pointer;
+}
+
+
+
+
+.uip{
+    position:absolute;
+    top:301%;
+}
+.umbinfo{
+    position:absolute;
+    top:301%;
+    left:62%;
+}
+.posu{
+    position:absolute;
+    top:409.4%;
+    left:62%;
+}
+.umbh:hover{
+    color:#f4edda;
+    cursor: pointer;
+}
+
+
+
+.lip{
+    position:absolute;
+    top:469.4%;
+}
+.lootinfo{
+    position:absolute;
+    top:469.4%;
+    left:62%;
+}
+.posl{
+    position:absolute;
+    top:560%;
+    left:62%;
+}
+
+.looth:hover{
+    color:#c22d41;
+    cursor: pointer;
+}
+
+
