@@ -66,11 +66,11 @@ a{
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
     position:absolute;
-    bottom:165%;
+    bottom:170%;
     
 }
 .cover::after{
-    content: url('./images/incognito/pinkdash.svg');
+    content: url('/images/pinkdash.svg');
     position:absolute;
     bottom:36.8%;
     left:62%;
@@ -86,14 +86,14 @@ a{
     font-weight: 20;
     color:white;
     position: absolute;
-    bottom:142%;
+    bottom:145%;
 }
 .clients{
     display: flex;
     align-items: center; /* Align items vertically in the center */
     justify-content: space-around; /* Distribute space evenly between items */
     position: absolute;
-    bottom: 128%;
+    bottom: 130%;
     left: -4%;
     width: 100%;
     
